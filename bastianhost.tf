@@ -1,4 +1,3 @@
-/*
 # create an ec2 instance
 resource "aws_instance" "bastianhost" {
   ami           = var.ami
@@ -11,4 +10,3 @@ resource "aws_instance" "bastianhost" {
     Name = "bastianhost"
   }
 }
-*/
